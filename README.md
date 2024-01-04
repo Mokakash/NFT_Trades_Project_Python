@@ -23,7 +23,7 @@ Note:
 I conducted data cleaning on the NFT raw data to ensure its suitability for effective exploratory data analysis (EDA). The following modifications were made to refine and prepare the dataset:
 
 + **Date data type conversion from ‘Object’ to ‘DateTime’ format** - This alteration was made to facilitate future trend analysis.
-+ **Null Values Verification** - Used a heatmap to visually confirm the absence of missing data/null values. This visual method aided in ongoing dataset cleaning (yellow for nulls and blue for non-null values)
++ **Null Values Verification** - Used a heatmap to visually confirm the absence of missing data/null values. This visual method aided in ongoing dataset cleaning (yellow for nulls and blue for non-null values - we see a bunch of yellows that need to be cleaned)
 + ![image1](https://github.com/Mokakash/NFT_Trades_Project_Python/blob/main/Assets/01_Uncleaned_NULL_Heatmap.png)
 + **Handling Missing Data**
   + Dropped rows with null values in the 'Date' column.
@@ -43,7 +43,7 @@ I conducted data cleaning on the NFT raw data to ensure its suitability for effe
   + Location
   + Type
   + Eth Expect to Receive
-+ **Final Verification** – Re-created a final heatmap to visually confirm the absence of null or missing values in the cleaned DataFrame (now yellow representing null values remained :wink:).
++ **Final Verification** – Re-created a final heatmap to visually confirm the absence of null or missing values in the cleaned DataFrame (NO yellows representing null values remained in our DataFrame. Now it's good to go :wink:).
 
   + ![image2](https://github.com/Mokakash/NFT_Trades_Project_Python/blob/main/Assets/02_Cleaned_NULL_Heatmap.png)
 
@@ -87,7 +87,7 @@ The analysis of trade counts and profit and loss across different alpha groups h
   + ![image10](https://github.com/Mokakash/NFT_Trades_Project_Python/blob/main/Assets/10_Count_by_Groups.png)
 + **Total Profit/Loss for Each Alpha Group**
   + NP emerges as the most profitable alpha group, contributing significantly to the overall profit with 14.2 ETH, representing 68% of the total profit. Conversely, YT stands out as the least profitable alpha group, reflecting a loss within the analyzed dataset.
-  + ![image11](https://github.com/Mokakash/NFT_Trades_Project_Python/blob/main/Assets/11_Total_Profit_Loss_by_Groups.png
+  + ![image11](https://github.com/Mokakash/NFT_Trades_Project_Python/blob/main/Assets/11_Total_Profit_Loss_by_Groups.png)
 + **Average Profit/Loss for Each Alpha Group**
   + Despite the NP alpha group contributing the highest total profit, it ranks third in terms of average profit per trade at 0.0598 ETH. The LV alpha group leads with an average profit per trade of 0.1998 ETH, followed by AS at 0.0635 ETH per trade.
   + ![image12](https://github.com/Mokakash/NFT_Trades_Project_Python/blob/main/Assets/12_Avg_Profit_Loss_by_Groups.png)
