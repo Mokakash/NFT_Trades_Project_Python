@@ -1,7 +1,7 @@
 # NFT Trade Analysis
 In this project, I analyzed my personal collection of 2022 NFT trades. Leveraging the power of Python, I conduct a comprehensive analysis to uncover insights and patterns within my NFT trading activities. Understanding the most profitable methods and where to focus my time on various alpha groups is essential with limited time each day. Come along as I use Python to understand and learn more about my NFT trading journey, aiming to get the best out of my trades.
  
-## Objectives 
+## Objectives
 The primary objectives of this project encompass a comprehensive analysis of 2022 NFT trading data across five key categories. These categories include:
 + Overall Trade Performance
 + Identify Feature Relationships
