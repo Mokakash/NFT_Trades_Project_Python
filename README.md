@@ -4,7 +4,7 @@ In this project, I analyzed my personal collection of 2022 NFT trades. Leveragin
 ## Objectives
 The primary objectives of this project encompass a comprehensive analysis of 2022 NFT trading data across five key categories. These categories include:
 + Overall Trade Performance
-+ Identify Feature Relationships
++ Identify Feature Relationships 
 + Evaluate Trade Method Importance/Profitability
 + Understand Alpha Group Distribution and Profitability
 + Uncover Temporal Trends
