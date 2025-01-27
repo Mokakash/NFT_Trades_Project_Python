@@ -6,7 +6,7 @@ The primary objectives of this project encompass a comprehensive analysis of 202
 + Overall Trade Performance
 + Identify Feature Relationships 
 + Evaluate Trade Method Importance/Profitability
-+ Understand Alpha Group Distribution and Profitability 
++ Understand Alpha Group Distribution and Profitability
 + Uncover Temporal Trends
 
 To achieve this, the initial steps involve cleaning the raw data followed by conducting exploratory data analysis.
