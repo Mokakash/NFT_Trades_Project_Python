@@ -35,7 +35,7 @@ I conducted data cleaning on the NFT raw data to ensure its suitability for effe
   + Updated 'Method' based on specific conditions - set '2nd Market' or '2ndary' to 'Secondary', and 'Mnt' to 'Mint'. This transformation aimed at categorizing and standardizing transaction methods. This standardization enhances data consistency and readability, providing a more coherent and understandable representation of the different transaction methods.
 + **Columns removal** – The columns listed below were identified as unnecessary for this analysis. Their removal aimed to streamline the analysis, enhancing focus, efficiency, and ease of interpretation.
   + NFT Name
-  + ITEM
+  + ITEM 
   + Initial + Fee (ETH)
   + Breakeven
   + Listing Fee Total ($)
